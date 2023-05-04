@@ -2,7 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-import { Center } from '@chakra-ui/react'
+import { Box, Center, Text } from '@chakra-ui/react'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -31,7 +31,14 @@ function App() {
   //     </p>
   //   </>
   // )
-  return <Center my='25%'>My name is Cameron</Center>
+  return (
+    <Center h='100vh'>
+      <Box>
+        <Text>My name is Cameron</Text>
+        <Text>Welcome to my website</Text>
+      </Box>
+    </Center>
+  )
 }
 
 export default App
